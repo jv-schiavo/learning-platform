@@ -10,12 +10,12 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
 //Routes
-app.get('/', (req,res)=>{
-    res.render('pages/home');
-});
+
+const homeRoute = require('./routes/home');
+app.use('/', homeRoute);
 
 const courseRoute = require('./routes/courses');
-app.use('/', courseRoute)
+app.use('/courses', courseRoute)
 
 
 const instructorsRoute = require('./routes/instructors');
