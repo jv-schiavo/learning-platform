@@ -26,6 +26,10 @@ app.get('/events', (req,res) =>{
     res.render('pages/events');
 });
 
+app.get('/faq', (req,res) =>{
+    res.render('pages/faq');
+});
+
 app.get('/contact', (req,res) =>{
     res.render('pages/contact');
 });
