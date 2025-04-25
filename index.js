@@ -14,9 +14,12 @@ app.get('/', (req,res)=>{
     res.render('pages/home');
 });
 
-app.get('/courses', (req,res) => {
-    res.render('pages/courses');
-});
+const courseRoute = require('./routes/courses');
+app.use('/', courseRoute)
+
+//app.get('/courses', (req,res) => {
+//    res.render('pages/courses');
+//});
 
 app.get('/instructors', (req,res) =>{
     res.render('pages/instructors');
