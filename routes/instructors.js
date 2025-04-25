@@ -1,5 +1,5 @@
 const express = require('express');
-const router = express.router();
+const router = express.Router();
 const { showInstructors } = require('../controllers/instructorsController');
 
 router.get('/instructors', showInstructors);

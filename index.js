@@ -17,25 +17,19 @@ app.get('/', (req,res)=>{
 const courseRoute = require('./routes/courses');
 app.use('/', courseRoute)
 
-//app.get('/courses', (req,res) => {
-//    res.render('pages/courses');
-//});
 
-app.get('/instructors', (req,res) =>{
-    res.render('pages/instructors');
-});
+const instructorsRoute = require('./routes/instructors');
+app.use('/instructors', instructorsRoute);
 
-app.get('/events', (req,res) =>{
-    res.render('pages/events');
-});
+const liveEventsRoute = require('./routes/liveEvents');
+app.use('/events', liveEventsRoute);
 
-app.get('/faq', (req,res) =>{
-    res.render('pages/faq');
-});
+const faqsRoute = require('./routes/faqs');
+app.use('/faq', faqsRoute);
 
-app.get('/contact', (req,res) =>{
-    res.render('pages/contact');
-});
+const contactRoute = require('./routes/contact');
+app.use('/contact', contactRoute);
+
 
 // Start Server
 app.listen(port, () => {
