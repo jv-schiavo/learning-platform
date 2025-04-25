@@ -1,0 +1,154 @@
+{
+    "instructors": [
+    {
+      "id": 1,
+      "name": "Dr. Emily Carter",
+      "bio": "Senior UX Researcher at Google with 12+ years in user-centered design.",
+      "avatar": "https://i.pravatar.cc/150?img=1"
+    },
+    {
+      "id": 2,
+      "name": "Prof. James Patel",
+      "bio": "Full-Stack Web Developer and educator with expertise in JavaScript and Python.",
+      "avatar": "https://i.pravatar.cc/150?img=2"
+    },
+    {
+      "id": 3,
+      "name": "Maria Gomez",
+      "bio": "Data Scientist at IBM, specializing in machine learning and AI.",
+      "avatar": "https://i.pravatar.cc/150?img=3"
+    },
+    {
+      "id": 4,
+      "name": "Liam O'Connor",
+      "bio": "Frontend Engineer at Spotify, passionate about React and design systems.",
+      "avatar": "https://i.pravatar.cc/150?img=4"
+    },
+    {
+      "id": 5,
+      "name": "Sara Liu",
+      "bio": "Cybersecurity Analyst at Cisco, with 8 years of experience in network security.",
+      "avatar": "https://i.pravatar.cc/150?img=5"
+    },
+    {
+      "id": 6,
+      "name": "Dr. Nathan Brown",
+      "bio": "AI Researcher at OpenAI, focusing on NLP and deep learning.",
+      "avatar": "https://i.pravatar.cc/150?img=6"
+    },
+    {
+      "id": 7,
+      "name": "Olivia Martins",
+      "bio": "Senior Product Designer at Airbnb with a background in interaction design.",
+      "avatar": "https://i.pravatar.cc/150?img=7"
+    },
+    {
+      "id": 8,
+      "name": "David Kim",
+      "bio": "DevOps Engineer at AWS, expert in CI/CD and cloud infrastructure.",
+      "avatar": "https://i.pravatar.cc/150?img=8"
+    },
+    {
+      "id": 9,
+      "name": "Anita Desai",
+      "bio": "Backend Developer at Netflix, specializing in Node.js and databases.",
+      "avatar": "https://i.pravatar.cc/150?img=9"
+    },
+    {
+      "id": 10,
+      "name": "Tom\u00e1s Costa",
+      "bio": "Software Engineering Lecturer and freelance consultant.",
+      "avatar": "https://i.pravatar.cc/150?img=10"
+    },
+    {
+      "id": 11,
+      "name": "David Gonzales",
+      "bio": "DevOps Engineer at AWS, expert in CI/CD and cloud infrastructure.",
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    {
+      "id": 12,
+      "name": "Anita English",
+      "bio": "Backend Developer at Netflix, specializing in Node.js and databases.",
+      "avatar": "https://i.pravatar.cc/150?img=12"
+    },
+    {
+      "id": 13,
+      "name": "David Roberts",
+      "bio": "DevOps Engineer at AWS, expert in CI/CD and cloud infrastructure.",
+      "avatar": "https://i.pravatar.cc/150?img=13"
+    },
+    {
+      "id": 14,
+      "name": "Dr. Alvarez",
+      "bio": "Senior UX Researcher at Google with 12+ years in user-centered design.",
+      "avatar": "https://i.pravatar.cc/150?img=14"
+    },
+    {
+      "id": 15,
+      "name": "Dr. Santana",
+      "bio": "AI Researcher at OpenAI, focusing on NLP and deep learning.",
+      "avatar": "https://i.pravatar.cc/150?img=15"
+    },
+    {
+      "id": 16,
+      "name": "David Gross",
+      "bio": "DevOps Engineer at AWS, expert in CI/CD and cloud infrastructure.",
+      "avatar": "https://i.pravatar.cc/150?img=16"
+    },
+    {
+      "id": 17,
+      "name": "David Schneider",
+      "bio": "DevOps Engineer at AWS, expert in CI/CD and cloud infrastructure.",
+      "avatar": "https://i.pravatar.cc/150?img=17"
+    },
+    {
+      "id": 18,
+      "name": "David Gallagher",
+      "bio": "DevOps Engineer at AWS, expert in CI/CD and cloud infrastructure.",
+      "avatar": "https://i.pravatar.cc/150?img=18"
+    },
+    {
+      "id": 19,
+      "name": "Dr. Harris",
+      "bio": "Senior UX Researcher at Google with 12+ years in user-centered design.",
+      "avatar": "https://i.pravatar.cc/150?img=19"
+    },
+    {
+      "id": 20,
+      "name": "Maria Garcia",
+      "bio": "Data Scientist at IBM, specializing in machine learning and AI.",
+      "avatar": "https://i.pravatar.cc/150?img=20"
+    },
+    {
+      "id": 21,
+      "name": "David Reed",
+      "bio": "DevOps Engineer at AWS, expert in CI/CD and cloud infrastructure.",
+      "avatar": "https://i.pravatar.cc/150?img=21"
+    },
+    {
+      "id": 22,
+      "name": "Dr. Larson",
+      "bio": "AI Researcher at OpenAI, focusing on NLP and deep learning.",
+      "avatar": "https://i.pravatar.cc/150?img=22"
+    },
+    {
+      "id": 23,
+      "name": "Tom\u00e1s Sanchez",
+      "bio": "Software Engineering Lecturer and freelance consultant.",
+      "avatar": "https://i.pravatar.cc/150?img=23"
+    },
+    {
+      "id": 24,
+      "name": "David Williams",
+      "bio": "DevOps Engineer at AWS, expert in CI/CD and cloud infrastructure.",
+      "avatar": "https://i.pravatar.cc/150?img=24"
+    },
+    {
+      "id": 25,
+      "name": "David Miles",
+      "bio": "DevOps Engineer at AWS, expert in CI/CD and cloud infrastructure.",
+      "avatar": "https://i.pravatar.cc/150?img=25"
+    }
+  ]
+}  

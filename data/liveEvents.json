@@ -1,0 +1,144 @@
+{
+    "liveEvents": [
+    {
+      "id": 1,
+      "title": "Intro to APIs (Live)",
+      "date": "2025-05-06",
+      "time": "21:00",
+      "instructorId": 9
+    },
+    {
+      "id": 2,
+      "title": "Live Q&A with Instructor",
+      "date": "2025-05-07",
+      "time": "20:00",
+      "instructorId": 13
+    },
+    {
+      "id": 3,
+      "title": "Deploying Apps with Docker",
+      "date": "2025-05-05",
+      "time": "19:00",
+      "instructorId": 25
+    },
+    {
+      "id": 4,
+      "title": "Frontend Debugging Tips",
+      "date": "2025-05-03",
+      "time": "18:00",
+      "instructorId": 15
+    },
+    {
+      "id": 5,
+      "title": "Portfolio Review Workshop",
+      "date": "2025-05-06",
+      "time": "17:00",
+      "instructorId": 17
+    },
+    {
+      "id": 6,
+      "title": "UX Portfolio Showcase",
+      "date": "2025-05-14",
+      "time": "21:00",
+      "instructorId": 17
+    },
+    {
+      "id": 7,
+      "title": "UX Portfolio Showcase",
+      "date": "2025-05-14",
+      "time": "18:00",
+      "instructorId": 8
+    },
+    {
+      "id": 8,
+      "title": "Portfolio Review Workshop",
+      "date": "2025-05-11",
+      "time": "18:00",
+      "instructorId": 7
+    },
+    {
+      "id": 9,
+      "title": "Ask Me Anything: DevOps",
+      "date": "2025-05-09",
+      "time": "17:00",
+      "instructorId": 23
+    },
+    {
+      "id": 10,
+      "title": "React Coding Session",
+      "date": "2025-05-09",
+      "time": "18:00",
+      "instructorId": 20
+    },
+    {
+      "id": 11,
+      "title": "React Coding Session",
+      "date": "2025-05-15",
+      "time": "18:00",
+      "instructorId": 21
+    },
+    {
+      "id": 12,
+      "title": "Live Project Feedback",
+      "date": "2025-05-16",
+      "time": "17:00",
+      "instructorId": 21
+    },
+    {
+      "id": 13,
+      "title": "UX Portfolio Showcase",
+      "date": "2025-05-18",
+      "time": "21:00",
+      "instructorId": 18
+    },
+    {
+      "id": 14,
+      "title": "Ask Me Anything: DevOps",
+      "date": "2025-05-20",
+      "time": "20:00",
+      "instructorId": 8
+    },
+    {
+      "id": 15,
+      "title": "Portfolio Review Workshop",
+      "date": "2025-05-17",
+      "time": "21:00",
+      "instructorId": 12
+    },
+    {
+      "id": 16,
+      "title": "UX Portfolio Showcase",
+      "date": "2025-05-27",
+      "time": "20:00",
+      "instructorId": 16
+    },
+    {
+      "id": 17,
+      "title": "React Coding Session",
+      "date": "2025-05-22",
+      "time": "19:00",
+      "instructorId": 17
+    },
+    {
+      "id": 18,
+      "title": "Live Q&A with Instructor",
+      "date": "2025-05-25",
+      "time": "17:00",
+      "instructorId": 9
+    },
+    {
+      "id": 19,
+      "title": "Live Q&A with Instructor",
+      "date": "2025-05-23",
+      "time": "19:00",
+      "instructorId": 16
+    },
+    {
+      "id": 20,
+      "title": "Live Q&A with Instructor",
+      "date": "2025-05-25",
+      "time": "19:00",
+      "instructorId": 8
+    }
+  ]
+}  

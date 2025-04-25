@@ -1,0 +1,39 @@
+{
+    "faqs": [
+    {
+      "id": 1,
+      "question": "Do I get a certificate after completing a course?",
+      "answer": "Yes, all certificate and degree programs include a digital certificate upon completion."
+    },
+    {
+      "id": 2,
+      "question": "Are the courses self-paced?",
+      "answer": "Yes, most courses can be completed at your own pace. Live events are optional."
+    },
+    {
+      "id": 3,
+      "question": "How can I join a live session?",
+      "answer": "Registered students will receive a link to join live sessions via email."
+    },
+    {
+      "id": 4,
+      "question": "Can I access the content after the course ends?",
+      "answer": "Yes, all content remains available to you for future reference."
+    },
+    {
+      "id": 5,
+      "question": "What payment methods are accepted?",
+      "answer": "We accept Visa, MasterCard, PayPal, and bank transfers."
+    },
+    {
+      "id": 6,
+      "question": "Is there support available during the course?",
+      "answer": "Yes, instructors and support staff are available via email and the discussion forum."
+    },
+    {
+      "id": 7,
+      "question": "Can I request a refund?",
+      "answer": "Yes, we offer a 14-day money-back guarantee for all purchases."
+    }
+  ]
+}  
