@@ -7,4 +7,4 @@ const getCourses = () => {
     return JSON.parse(data);
 };
 
-module.export = { getCourses };
+module.exports = { getCourses };
