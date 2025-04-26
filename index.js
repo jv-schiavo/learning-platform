@@ -1,6 +1,6 @@
 let express = require(`express`);
 let path = require('path');
-
+const db = require('./models/db');
 const port = 5000;
 let app = express();
 
