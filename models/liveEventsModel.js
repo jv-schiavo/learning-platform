@@ -1,11 +1,14 @@
-const fs = require('fs');
-const path = require('path');
+const db = require('./db');
 
-const getLiveEvents = ()=>{
-    const filePath = path.join(__dirname,'../data/liveEvents.json');
-    const data = fs.readFileSync(filePath,'utf8');
-    const parsedData = JSON.parse(data);
-    return parsedData.liveEvents;
+function getLiveEvents(callback) {
+    db.all('SELECT * FROM liveEvents', [], (err,rows)=>{
+        if(err){
+            console.log('Error fetching Live Events', err.message);
+            callback(err,null);
+        } else{
+            callback(null,rows);
+        };
+    });
 };
 
 module.exports = { getLiveEvents }; 

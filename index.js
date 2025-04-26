@@ -8,6 +8,8 @@ let app = express();
 app.use(express.static(path.join(__dirname, 'public')));
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
+app.use(express.urlencoded({ extended: true }));
+
 
 //Routes
 
@@ -27,7 +29,7 @@ app.use('/events', liveEventsRoute);
 const faqsRoute = require('./routes/faqs');
 app.use('/faq', faqsRoute);
 
-const contactRoute = require('./routes/contact');
+const contactRoute = require('./routes/studentContact');
 app.use('/contact', contactRoute);
 
 

@@ -1,11 +1,15 @@
-const fs = require('fs');
-const path = require('path');
+const db = require('./db');
 
-const getCourses = () => {
-    const filePath = path.join(__dirname, '../data/courses.json');
-    const data = fs.readFileSync(filePath, 'utf8');
-    const parsedData = JSON.parse(data);
-    return parsedData.courses;
+function getCourses(callback)  {
+    db.all('SELECT * FROM courses', [], (err,rows) =>{
+        if(err) {
+            console.log("Error fetching courses", err.message);
+            callback(err,null);
+        } else { 
+            callback(null,rows);
+
+        }
+    })
 };
 
 module.exports = { getCourses };
