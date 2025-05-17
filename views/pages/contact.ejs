@@ -1,14 +1,42 @@
-<h1>Contact Us</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <%- include('../common/header') %>
 
-<form action="/contact" method="POST">
-    <input type="text" name="name" placeholder="Enter your name:" required>
-    <input type="email" name="email" placeholder="Enter your email:" required>
-    <input type="number" name="telephone" placeholder="Enter you phone number:" required>
-    <input type="text" name="subject" placeholder="Subject:" required>
-    <textarea name="message" placeholder="Your message:"></textarea required>
-    <button type="submit">Submit</button>
-</form>
+  <main class="page-container">
+    <section class="section">
+      <h1 class="title">Contact Us</h1>
+      <p class="subtitle">Let us know how we can help you.</p>
 
-<% if (query.success) { %>
-    <p>Message sent successfully!</p>
-  <% } %>
+      <% if (query.success) { %>
+        <p id="success-message" class="success-message">Message sent successfully!</p>
+      <% } %>
+
+      <form action="/contact" method="POST" class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email" required>
+
+        <label for="text">Subject</label>
+        <input type="type" name="subject" id="subject" placeholder="Subject" required>
+        
+        <label for="text">Message</label>
+        <textarea type="type" name="message" id="message" placeholder="Your message:"></textarea required>
+        
+        <button type="submit">Submit</button>
+
+<script>
+  setTimeout(() => {
+    const msg = document.getElementById('success-message');
+    if (msg) {
+      msg.style.display = 'none'
+    }
+    }, 2000);
+</script>

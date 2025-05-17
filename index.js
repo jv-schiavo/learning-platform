@@ -24,7 +24,7 @@ const instructorsRoute = require('./routes/instructors');
 app.use('/instructors', instructorsRoute);
 
 const liveEventsRoute = require('./routes/liveEvents');
-app.use('/events', liveEventsRoute);
+app.use('/liveEvents', liveEventsRoute);
 
 const faqsRoute = require('./routes/faqs');
 app.use('/faq', faqsRoute);

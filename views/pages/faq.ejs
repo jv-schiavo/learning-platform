@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Faq</title>
+  <meta charset="UTF-8">
+  <title>FAQ – LearnUp</title>
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <h1>This is the FAQ page</h1>
-    
+  <%- include('../common/header') %>
+
+  <main class="page-container">
+    <section class="section">
+      <h1 class="title">Frequently Asked Questions</h1>
+      <div class="faq-list">
+        <% faqs.forEach(faq => { %>
+          <div class="faq-item">
+            <h3 class="faq-question"><%= faq.question %></h3>
+            <p class="faq-answer"><%= faq.answer %></p>
+          </div>
+        <% }) %>
+      </div>
+    </section>
+  </main>
+
+  <%- include('../common/footer') %>
 </body>
 </html>

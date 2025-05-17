@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Live Events – LearnUp</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <%- include('../common/header') %>
+
+  <main class="page-container">
+    <section class="section">
+      <h1 class="title">Live Events</h1>
+      <p class="subtitle">Join live workshops and sessions hosted by professionals.</p>
+
+      <div class="card-grid">
+        <% liveEvents.forEach(event => { %>
+          <div class="card">
+            <h3 class="card-title"><%= event.title %></h3>
+            <p class="card-description"><%= event.date %> – <%= event.description %></p>
+          </div>
+        <% }) %>
+      </div>
+    </section>
+  </main>
+
+  <%- include('../common/footer') %>
+</body>
+</html>

@@ -1,13 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <title>LearnUp – Home</title>
+  <link rel="stylesheet" href="/css/style.css" />
 </head>
 <body>
-    Galo doido
+  <%- include('../common/header') %>
 
-    <%- include('../common/footer') %>
+  <main class="page-container">
+
+   <!-- Hero Section -->
+<section class="hero-section">
+  <img src="/images/hero.jpg" alt="Hero image" class="hero-image">
+  <div class="hero-text">
+    <h1 class="title">Learn Without Limits</h1>
+    <p class="subtitle">Expert-led learning, upcoming events, and helpful answers.</p>
+    <a href="/courses" class="hero-button">Start Learning</a>
+  </div>
+</section>
+
+    <!-- Courses (scrollable) -->
+    <section class="section">
+      <h2 class="section-title">Courses</h2>
+      <div class="scroll-row">
+        <% courses.forEach(course => { %>
+          <div class="card">
+            <h3 class="card-title"><%= course.title %></h3>
+            <p class="card-description"><%= course.description %></p>
+          </div>
+        <% }) %>
+      </div>
+    </section>
+
+    <!-- Instructors -->
+    <section class="section">
+      <h2 class="section-title">Meet Our Instructors</h2>
+      <div class="card-grid">
+        <% instructors.forEach(inst => { %>
+          <div class="card">
+            <h3 class="card-title"><%= inst.name %></h3>
+            <p class="card-description"><%= inst.bio %></p>
+          </div>
+        <% }) %>
+      </div>
+    </section>
+
+    <!-- Upcoming Live Events -->
+    <section class="section">
+      <h2 class="section-title">Upcoming Live Events</h2>
+      <div class="card-grid">
+        <% liveEvents.forEach(event => { %>
+          <div class="card">
+            <h3 class="card-title"><%= event.title %></h3>
+            <p class="card-description">
+              <%= new Date(event.date).toLocaleDateString('en-GB') %> – <%= event.description %>
+            </p>
+          </div>
+        <% }) %>
+      </div>
+    </section>
+
+    <!-- FAQs -->
+    <section class="section">
+      <h2 class="section-title">FAQs</h2>
+      <div class="card-grid">
+        <% faqs.forEach(faq => { %>
+          <div class="card">
+            <h3 class="card-title"><%= faq.question %></h3>
+            <p class="card-description"><%= faq.answer %></p>
+          </div>
+        <% }) %>
+      </div>
+    </section>
+
+  </main>
+
+  <%- include('../common/footer') %>
 </body>
 </html>

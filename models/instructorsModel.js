@@ -12,3 +12,4 @@ function getInstructors(callback) {
 };
 
 module.exports = { getInstructors };
+
