@@ -248,3 +248,52 @@ a {
   border-radius: 20px;
 
 }
+
+/* --- Filter Container --- */
+.filter-group {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+/* --- Label Style --- */
+.filter-label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+}
+
+/* --- Dropdown Style: Apple-inspired --- */
+.filter-select {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-family: inherit;
+  color: #333;
+  background-color: #fafafa;
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  transition: all 0.2s ease;
+}
+
+/* --- Add a custom arrow (optional) --- */
+.filter-select::after {
+  content: "▾";
+  position: absolute;
+  right: 1rem;
+  pointer-events: none;
+}
+
+/* --- Hover/Focus State --- */
+.filter-select:hover,
+.filter-select:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 0 2px rgba(100, 100, 255, 0.15);
+  outline: none;
+  cursor: pointer;
+}
