@@ -19,6 +19,9 @@ app.use('/', homeRoute);
 const courseRoute = require('./routes/courses');
 app.use('/courses', courseRoute)
 
+const apiCoursesRoutes = require("./routes/api_courses");
+app.use("/api/courses", apiCoursesRoutes);
+
 
 const instructorsRoute = require('./routes/instructors');
 app.use('/instructors', instructorsRoute);

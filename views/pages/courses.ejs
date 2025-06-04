@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
   <meta charset="UTF-8">
   <title>Courses – LearnUp</title>
   <link rel="stylesheet" href="/css/style.css">
@@ -11,9 +13,25 @@
   <main class="page-container">
     <section class="section">
       <h1 class="title">Courses</h1>
-      <p class="subtitle">Explore our curated list of courses for all levels.</p>
+      <p class="subtitle">Explore our list of courses for all levels.</p>
 
-      <div class="card-grid">
+   <!-- Filter Dropdown -->
+    <div class="filter-group">
+      <label for="topicFilter" class="filter-label">Filter by Topic:</label>
+      <select id="topicFilter" class="filter-select">
+        <option value="">All Topics</option>
+        <option value="1">Backend</option>
+        <option value="2">UX</option>
+        <option value="3">AI</option>
+        <option value="4">Cybersecurity</option>
+        <option value="5">Data Science</option>
+        <option value="6">Frontend</option>
+        <option value="7">DevOps</option>
+      </select>
+      </div>
+
+      <!-- Container to inject filtered courses -->
+      <div id="courseContainer" class="card-grid">
         <% courses.forEach(course => { %>
           <div class="card">
             <h2 class="card-title"><%= course.title %></h2>
@@ -23,6 +41,7 @@
       </div>
     </section>
   </main>
+  <script src="/js/courses.js"></script>
 
   <%- include('../common/footer') %>
 </body>
