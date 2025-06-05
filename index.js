@@ -19,15 +19,17 @@ app.use('/', homeRoute);
 const courseRoute = require('./routes/courses');
 app.use('/courses', courseRoute)
 
-const apiCoursesRoutes = require("./routes/api_courses");
-app.use("/api/courses", apiCoursesRoutes);
-
+const apiCoursesRoute = require("./routes/api_courses");
+app.use("/api/courses", apiCoursesRoute);
 
 const instructorsRoute = require('./routes/instructors');
 app.use('/instructors', instructorsRoute);
 
 const liveEventsRoute = require('./routes/liveEvents');
 app.use('/liveEvents', liveEventsRoute);
+
+const apiLiveEventsRoute = require('./routes/api_liveEvents');
+app.use('/api/liveEvents', apiLiveEventsRoute)
 
 const faqsRoute = require('./routes/faqs');
 app.use('/faq', faqsRoute);
